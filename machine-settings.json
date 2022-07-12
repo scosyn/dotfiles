@@ -37,6 +37,6 @@
     "git.confirmSync": false,
     "extensions": [
         "ms-dotnettools.csharp",
-        "github.github-vscode-theme"
+        "github.github-vscode"
       ]
 }
