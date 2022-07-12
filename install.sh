@@ -2,7 +2,7 @@
 
 export DEBIAN_FRONTEND=noninteractive
 export INSTALL_ZSH=true
-export USERNAME=`whoami
+export USERNAME=`whoami`
 
 ## update and install required packages
 sudo apt-get update
