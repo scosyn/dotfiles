@@ -15,9 +15,6 @@
 	"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
 	"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
 	"lldb.executable": "/usr/bin/lldb",
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
     "workbench.colorTheme": "GitHub Light",
     "workbench.colorCustomizations": {
 
