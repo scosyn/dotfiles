@@ -2,6 +2,8 @@
 
 sudo apt-get install fonts-firacode -y
 
+dotnet dev-certs https --trust
+
 create_symlinks() {
     # Get the directory in which this script lives.
     script_dir=$(dirname "$(readlink -f "$0")")
@@ -21,4 +23,10 @@ create_symlinks() {
 create_symlinks
 
 
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cp -R /root/.oh-my-zsh /home/$USERNAME
+cp /root/.zshrc /home/$USERNAME
+sed -i -e "s//root/.oh-my-zsh//home/$USERNAME/.oh-my-zsh/g" /home/$USERNAME/.zshrc
+chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
 
