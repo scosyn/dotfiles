@@ -15,5 +15,28 @@
 	"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
 	"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
 	"lldb.executable": "/usr/bin/lldb",
-    "terminal.integrated.defaultProfile.linux": "zsh"
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "GitHub Light",
+    "workbench.colorCustomizations": {
+
+        "terminal.foreground": "#FFF",
+        "terminal.background": "#000000",
+        "debugConsole.infoForeground": "#555"
+    },
+    "editor.formatOnType": true,
+    "debug.onTaskErrors": "showErrors",
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "extensions": [
+        "ms-dotnettools.csharp",
+        "github.github-vscode-theme"
+      ]
 }
