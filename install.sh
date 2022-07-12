@@ -6,6 +6,6 @@ export USERNAME=`whoami`
 sudo apt-get install -y \
   fonts-firacode
 
-#chsh -s /usr/bin/zsh $USERNAME
+sudo chsh -s /usr/bin/zsh $USERNAME
 cp machine-settings.json /home/codespace/.vscode-remote/data/Machine/settings.json
 cp .zshrc ~/.zshrc
