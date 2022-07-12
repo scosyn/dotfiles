@@ -1,6 +1,4 @@
 #!/bin/bash
 
-sudo apt-get install fonts-firacode -y
 
-
-
+cp machine-settings.json /home/codespace/.vscode-remote/data/Machine/settings.json
