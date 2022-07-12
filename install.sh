@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get install fonts-firacode -y
 
 create_symlinks() {
     # Get the directory in which this script lives.
@@ -19,5 +20,5 @@ create_symlinks() {
 
 create_symlinks
 
-sudo apt-get install fonts-firacode -y
+
 
